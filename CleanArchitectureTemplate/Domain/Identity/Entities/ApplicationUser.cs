@@ -28,15 +28,6 @@ namespace Domain.Identity.Entities
         /// </summary>
         public bool IsDeleted { get; set; }
 
-        /// <summary>
-        /// Идентификатор изображения пользователя
-        /// </summary>
-        public long? ImageId { get; set; }
-        
-        /// <summary>
-        ///  Идентификатор организации
-        /// </summary>
-        public long? OrganizationId { get; set; }
 
         // Навигационные свойства
         
